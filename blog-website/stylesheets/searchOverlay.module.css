@@ -1,0 +1,63 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(2px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.box {
+  text-align: center;
+}
+
+.box p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ff5fa2;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.search input {
+  padding: 15px 20px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+.search button {
+  background: #4aa3df;
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+
+  background: #ff5fa2;
+  border: none;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
