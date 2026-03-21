@@ -17,7 +17,6 @@ export default async function FeaturePostsDetail({ params }: Props) {
   return (
     <>
       <div className={styles.container}>
-        {/* HERO CONTENT */}
         <div className={styles.hero}>
           <h1 className={styles.title}>{post.title}</h1>
 
@@ -34,13 +33,11 @@ export default async function FeaturePostsDetail({ params }: Props) {
           </div>
         </div>
 
-        {/* IMAGE */}
         <div className={styles.imageWrap}>
           <img src={post.image} alt={post.title} />
           <span className={styles.category}>{post.category}</span>
         </div>
 
-        {/* CONTENT */}
         <div className={styles.content}>
           <p>{post.content}</p>
         </div>

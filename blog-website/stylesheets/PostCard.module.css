@@ -50,6 +50,7 @@
 
 .card{
   width: 100%;
+  max-width: 531px;
   cursor:pointer;
   transition:0.35s;
   text-decoration:none;  
@@ -58,7 +59,7 @@
 
 .image{
   width: 100%;
-  aspect-ratio: 1/1; 
+  aspect-ratio: 1/1;
   border-radius:18px;
   overflow:hidden;
   position:relative;

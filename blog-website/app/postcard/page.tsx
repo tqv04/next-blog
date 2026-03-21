@@ -27,7 +27,6 @@ export default function PostCard() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [activeCategory, setActiveCategory] = useState("all");
 
-  /* FETCH DATA */
   useEffect(() => {
     const fetchPosts = async () => {
       const res = await fetch("/api/posts");
@@ -38,7 +37,6 @@ export default function PostCard() {
     fetchPosts();
   }, []);
 
-  /* FILTER LOGIC (tối ưu hơn) */
   const filteredPosts = useMemo(() => {
     if (activeCategory === "all") return posts;
     return posts.filter((post) => post.category === activeCategory);
@@ -47,7 +45,6 @@ export default function PostCard() {
   return (
     <div className={styles.body}>
       <div className={styles.container}>
-        {/* FILTER */}
         <div className={styles.promptFilter}>
           {categories.map((cat: Category) => {
             const isActive = activeCategory === cat.value;
@@ -70,14 +67,12 @@ export default function PostCard() {
           })}
         </div>
 
-        {/* CARDS */}
         <div className={styles.cardContainer}>
           {filteredPosts.map((post) => (
             <PostItem key={post.id} post={post} />
           ))}
         </div>
 
-        {/* LOAD MORE */}
         <div className={styles.load}>
           <button className={styles.loadbtn}>Load more</button>
         </div>
@@ -86,7 +81,6 @@ export default function PostCard() {
   );
 }
 
-/* 🔥 Tách component nhỏ (rất quan trọng) */
 function PostItem({ post }: { post: Post }) {
   return (
     <Link href={`/postcard/${post.id}`} className={styles.card}>
