@@ -2,9 +2,6 @@
   text-align:center;
   padding:100px 40px 30px;
 }
-
-/* title */
-
 .title{
   font-size:60px;
   font-weight:800;
@@ -19,8 +16,6 @@
   margin-bottom:20px;
   font-size: 18px;
 }
-
-/* search */
 
 .searchBox{
   margin:auto;
@@ -37,13 +32,9 @@
   transition:0.3s;
 }
 
-/* khi focus mới hiện border */
-
 .searchBox:focus-within{
   box-shadow:0 0 0 2px #ff4d8d;
 }
-
-/* input */
 
 .searchBox input{
   flex:1;
@@ -53,8 +44,6 @@
   font-size:16px;
   padding:14px 18px;
 }
-
-/* button */
 
 .searchBox button{
   width:50px;
@@ -76,4 +65,60 @@
 
 .searchBox button:hover{
   transform:scale(1.05);
+}
+@media (max-width: 1024px) {
+  .title {
+    font-size: 44px;
+  }
+
+  .section {
+    padding: 70px 30px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px 20px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .topText {
+    font-size: 14px;
+  }
+
+  .searchBox {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .searchBox input {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .searchBox button {
+    width: 42px;
+    height: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .searchBox {
+    border-radius: 20px;
+  }
+
+  .searchBox input {
+    padding: 8px 10px;
+  }
+
+  .searchBox button {
+    width: 38px;
+    height: 38px;
+  }
 }

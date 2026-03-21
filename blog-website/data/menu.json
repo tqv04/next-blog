@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Home",
+    "link": "/",
+    "children": [
+      { "title": "Home Classic /w Intro", "link": "#" },
+      { "title": "Home Magazine /w Intro", "link": "#" },
+      { "title": "Home Prompts + Magazine", "link": "#", "active": true },
+      { "title": "Home Classic with Sidebar", "link": "#" },
+      { "title": "Home Posts Carousel", "link": "#" },
+      { "title": "Home Minimal", "link": "#" },
+      { "title": "Home Prompts + Grid Posts", "link": "#" },
+      { "title": "Home Grid Posts Only", "link": "#" }
+    ]
+  },
+  {
+    "title": "Header Styles",
+    "link": "#",
+    "children": [
+      { "title": "Minimalist Style (default)", "link": "#" },
+      { "title": "Classic Style", "link": "#" },
+      { "title": "Notice on Top", "link": "#", "active": true }
+    ]
+  },
+  {
+    "title": "Post Features",
+    "link": "#",
+    "children": [
+      { "title": "Post Formats", "link": "#" },
+      { "title": "Fullwidth with Sidebar", "link": "#" },
+      { "title": "Fullwidth no Sidebar", "link": "#", "active": true },
+      { "title": "Vertical with Sidebar", "link": "#", "active": true },
+      { "title": "Vertical no Sidebar", "link": "#", "active": true },
+      { "title": "Classic with Sidebar", "link": "#", "active": true },
+      { "title": "Post Pagination", "link": "#", "active": true }
+    ]
+  },
+  {
+    "title": "#Tags",
+    "link": "#"
+  },
+  {
+    "title": "Features",
+    "link": "#",
+    "children": [
+      { "title": "Style Guide", "link": "#" },
+      { "title": "Gutenberg Blocks", "link": "#" },
+      { "title": "Explore our Categories", "link": "#", "active": true },
+      { "title": "Meet the Authors", "link": "#", "active": true },
+      { "title": "Prompts Archive", "link": "#", "active": true },
+      { "title": "Buttons", "link": "#", "active": true },
+      { "title": "Accordions and Tabs", "link": "#", "active": true },
+      { "title": "Columns", "link": "#", "active": true },
+      { "title": "Alert Messages", "link": "#", "active": true },
+      { "title": "404 Page", "link": "#", "active": true },
+      { "title": "Author Page", "link": "#", "active": true }
+    ]
+  },
+  {
+    "title": "Contact",
+    "link": "#"
+  }
+]

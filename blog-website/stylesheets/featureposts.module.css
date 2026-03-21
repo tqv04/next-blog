@@ -1,5 +1,6 @@
 .container {
   padding: 80px;
+  
 }
 
 .heading {
@@ -28,9 +29,8 @@
 }
 
 .bigCard img {
- width: 100%;        /* thay vì 700px */
-  max-width: 700px;   /* vẫn giữ size gốc */
-  height: 430px;
+ width: 100%;        
+ aspect-ratio: 16/9;
   object-fit: cover;
 }
 .bigContent h3 {
@@ -68,14 +68,55 @@
 .smallContent p {
   font-size: 14px;
   color: gray;
+}@media (max-width: 1280px) {
+  .container {
+    max-width: 1100px;
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+    align-items: stretch; 
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .bigContent h3 {
+    font-size: 24px;
+  }
+  .side {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 20px;
+    height: 100%;
+  }
+
+  .smallCard {
+    height: 100%;
+  }
+
+  .smallCard img {
+    width: 150px;
+    height: 105px;
+    object-fit: cover;
+  }
+      .bigContent h3 {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 1024px) {
   .container {
     padding: 40px;
   }
-
+    .bigContent h3 {
+    margin-top: 10px;
+  }
   .grid {
-    grid-template-columns: 1fr; /* xuống 1 cột */
+    grid-template-columns: 1fr; 
   }
 
   .bigCard img {
@@ -86,13 +127,15 @@
   .container {
     padding: 20px;
   }
-
+  .bigContent h3 {
+    margin-top: 10px;
+  }
   .heading {
     font-size: 28px;
   }
 
   .smallCard {
-    flex-direction: column;      /* xếp dọc */
+    flex-direction: column;   
     align-items: flex-start;
   }
 
