@@ -18,10 +18,9 @@ export default function Footer() {
 
             <div>
               <p>
-                A super modern theme following the latest trends with premium
-                features and fully compatible with WordPress.
+               A modern blog platform built with the latest trends, featuring a clean design and optimized performance.
               </p>
-              <p>Check more themes like this on estudiopatagon.com</p>
+              <p>Check more themes like this on https://github.com/tqv04</p>
             </div>
           </div>
           <div className={styles.middle}>
@@ -43,7 +42,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className={styles.bottom}>Vinblog Theme by EstudioPatagon</div>
+        <div className={styles.bottom}>© 2026 Vinblog. All rights reserved.</div>
       </footer>
     </>
   );
