@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "The 5 essential elements for crafting high-impact AI art prompts",
+    "category": "AI & Creativity",
+    "color": "#94a3b8",
+    "image": "/post1.jpg",
+    "author": "Seo Hyewon",
+    "date": "August 15, 2019",
+    "content": "Generative AI tools like Midjourney and Stable Diffusion have transformed the way we create visual content. Instead of relying solely on traditional design skills, creators can now generate stunning visuals using carefully crafted text prompts. However, not all prompts are created equal. The difference between an average result and a breathtaking image often lies in how well the prompt is structured. In this article, we explore five essential elements that can significantly improve the quality of your AI-generated artwork. From clarity and detail to style references and composition, mastering these elements will help you unlock the true potential of AI creativity.",
+    "extra": "Generative AI tools like Midjourney and Stable Diffusion have changed the game, turning mere text into stunning visuals through well-crafted prompts.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Exploring modern architecture through color and minimal design",
+    "category": "Design",
+    "color": "#4da3ff",
+    "image": "/post2.jpg",
+    "author": "Daniel Moore",
+    "date": "February 2, 2026",
+    "content": "Modern architecture is no longer just about structure and function — it is about emotion, atmosphere, and visual storytelling. Designers are increasingly using color, curves, and minimal elements to create spaces that feel both futuristic and inviting. In this post, we explore how simple shapes and bold color palettes can transform everyday buildings into artistic expressions that capture attention and inspire creativity.",
+    "extra": "A look into how color, light, and minimalism redefine modern architectural experiences."
+  },
+  {
+    "id": 3,
+    "title": "How digital art is evolving in the age of AI and glitch aesthetics",
+    "category": "Art",
+    "color": "#ff6b6b",
+    "image": "/post3.jpg",
+    "author": "Sophia Carter",
+    "date": "March 12, 2026",
+    "content": "Digital art has entered a new era where imperfections and glitches are no longer mistakes but intentional stylistic choices. Artists are embracing distortion, noise, and surreal compositions to express complex ideas about identity and technology. With AI tools entering the creative workflow, the boundary between human imagination and machine generation continues to blur, opening up endless possibilities for experimentation.",
+    "extra": "A deep dive into glitch aesthetics and the growing influence of AI in digital art."
+  },
+  {
+    "id": 4,
+    "title": "Finding freedom on the road: a minimalist travel lifestyle",
+    "category": "Lifestyle",
+    "color": "#c084fc",
+    "image": "/post4.webp",
+    "author": "Michael Brooks",
+    "date": "April 8, 2026",
+    "content": "More people are choosing to embrace a minimalist lifestyle, trading stability for freedom and exploration. Living on the road offers a unique perspective on life, where experiences matter more than possessions. In this article, we explore how traveling with less can actually lead to a richer and more meaningful life, filled with unforgettable moments and personal growth.",
+    "extra": "Discover how minimalism and travel combine to create a life of freedom and purpose."
+  },
+  {
+    "id": 5,
+    "title": "Why nature remains the ultimate source of inspiration for creators",
+    "category": "Nature",
+    "color": "#14d9c4",
+    "image": "/greenlakes.webp",
+    "author": "Emily Turner",
+    "date": "May 14, 2026",
+    "content": "In a world dominated by screens and digital tools, nature continues to be a powerful source of inspiration. The colors, textures, and patterns found in natural landscapes influence everything from art to design and architecture. Taking time to disconnect and observe the natural world can spark creativity in ways that no algorithm can replicate.",
+    "extra": "Exploring how nature inspires creativity across art, design, and everyday life."
+  },
+  {
+    "id": 6,
+    "title": "Capturing the unexpected: the beauty of spontaneous moments",
+    "category": "Photography",
+    "color": "#22c55e",
+    "image": "/themiraculous.webp",
+    "author": "Oliver Bennett",
+    "date": "June 1, 2026",
+    "content": "Some of the most powerful images are captured in unplanned moments. Whether it's a sudden change in light or an unexpected subject, spontaneity plays a crucial role in photography. Learning to recognize and capture these fleeting moments can elevate your work and bring authenticity to your visual storytelling.",
+    "extra": "A reflection on spontaneity in photography and the magic of capturing real moments."
+  }
+]

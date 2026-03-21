@@ -1,11 +1,14 @@
 "use client";
 import Link from "next/link";
 import { Search, ChevronDown, Mail } from "lucide-react";
-import styles from "../stylesheets/Header.module.css";
+import styles from "@/stylesheets/Header.module.css";
 import { useState } from "react";
 import SearchOverlay from "./Searchoverlay";
+import { usePathname } from "next/navigation";
 export default function Header() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  if (pathname.startsWith("/postcard")) return null;
   return (
     <>
       <header className={styles.header}>

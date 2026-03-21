@@ -1,0 +1,37 @@
+[
+  {
+    "name": "All",
+    "value": "all",
+    "color": "#ffffff"
+  },
+  {
+    "name": "Animals",
+    "value": "Animals",
+    "color": "#22c55e"
+  },
+  {
+    "name": "Art",
+    "value": "Art",
+    "color": "#ff6b6b"
+  },
+  {
+    "name": "Buildings",
+    "value": "Buildings",
+    "color": "#4da3ff"
+  },
+  {
+    "name": "Humans",
+    "value": "Humans",
+    "color": "#94a3b8"
+  },
+  {
+    "name": "Lifestyle",
+    "value": "Lifestyle",
+    "color": "#c084fc"
+  },
+  {
+    "name": "Nature",
+    "value": "Nature",
+    "color": "#14d9c4"
+  }
+]

@@ -1,0 +1,128 @@
+.footer {
+  background: linear-gradient(90deg, #f4f7fb, #cfe3f2);
+  padding: 80px 80px 30px;
+  font-family: sans-serif;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* LEFT */
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.logoContainer h1{
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #ff4d8d, #5cc0ff);
+  border-radius: 8px;
+}
+
+.left p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  max-width: 420px;
+}
+
+/* MIDDLE */
+
+.middle {
+  padding-left: 40px;
+}
+
+.middle h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.middle a {
+  display: block;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #374151;
+  transition: 0.2s;
+}
+
+.middle a:hover {
+  color: #ff4d8d;
+}
+
+/* RIGHT */
+
+.right {
+  padding-left: 40px;
+}
+
+.right h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #3b82f6;
+}
+
+.right p {
+  margin-bottom: 20px;
+  color: #4a5568;
+}
+
+.buttongroup {
+  display: flex;
+  gap: 10px;
+}
+
+.buttongroup button {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* social colors */
+
+.buttongroup button:nth-child(1) {
+  background: black;
+}
+
+.buttongroup button:nth-child(2) {
+  background: #1877f2;
+}
+
+.buttongroup button:nth-child(3) {
+  background: #ff4d8d;
+}
+
+.buttongroup button:nth-child(4) {
+  background: #17c9c9;
+}
+
+.buttongroup button:nth-child(5) {
+  background: #f59e0b;
+}
+
+/* bottom */
+
+.bottom {
+  margin-top: 50px;
+  text-align: center;
+  color: #4a5568;
+  font-size: 14px;
+}

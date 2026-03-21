@@ -1,0 +1,103 @@
+.container {
+  padding: 80px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+}
+
+
+.bigCard {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;   
+  color: inherit;
+}
+
+.bigCard img {
+ width: 100%;        /* thay vì 700px */
+  max-width: 700px;   /* vẫn giữ size gốc */
+  height: 430px;
+  object-fit: cover;
+}
+.bigContent h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.smallCard {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+    text-decoration: none;   
+  color: inherit;
+}
+
+.smallCard img {
+  width: 100%;
+  max-width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.smallContent h4 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.smallContent p {
+  font-size: 14px;
+  color: gray;
+}
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* xuống 1 cột */
+  }
+
+  .bigCard img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .smallCard {
+    flex-direction: column;      /* xếp dọc */
+    align-items: flex-start;
+  }
+
+  .smallCard img {
+    max-width: 100%;
+    width: 100%;
+  }
+}

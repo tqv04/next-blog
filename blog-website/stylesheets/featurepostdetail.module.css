@@ -1,0 +1,133 @@
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px 80px;
+  position: relative;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+/* TITLE */
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 20px;
+
+  /* gradient text giống hình */
+  background: linear-gradient(to right, #4f8cff, #8b5cf6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* DESCRIPTION */
+.desc {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* META */
+.meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* BADGE */
+.badge {
+  background: #38bdf8;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-left: 10px;
+}
+
+/* IMAGE */
+.imageWrap {
+  position: relative;
+  margin-top: 30px;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* CATEGORY TAG */
+.category {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #111827;
+  color: white;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+/* CONTENT */
+.content {
+  max-width: 750px;
+  margin: 40px auto 0;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVE */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .imageWrap img {
+    height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .container {
+    padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .meta {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .imageWrap img {
+    height: 240px;
+  }
+
+  .content {
+    font-size: 15px;
+  }
+}

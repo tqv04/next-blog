@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import styles from "../stylesheets/searchOverlay.module.css";
+import styles from "@/stylesheets/searchOverlay.module.css";
 import { X } from "lucide-react";
 
 type Props = {

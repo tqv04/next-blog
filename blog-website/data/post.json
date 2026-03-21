@@ -1,0 +1,68 @@
+[
+  {
+    "id": 11,
+    "title": "Red girl, cinematic magic",
+    "category": "Humans",
+    "color": "#94a3b8",
+    "image": "/redgirl.webp",
+    "author": "Lena Hart",
+    "date": "January 5, 2026",
+    "content": "Sometimes the most powerful stories begin with a quiet moment. Walking through the city at night, surrounded by soft lights and distant sounds, I realized how easily we overlook the beauty hidden in ordinary days. A simple glance, a thoughtful conversation, or a moment of reflection can change the way we see the world. Life moves quickly, but when we slow down and pay attention, we discover meaning in places we never expected. This post is a reminder that inspiration does not always come from extraordinary events — often it grows from small, unnoticed moments that shape who we become.",
+    "extra": "A reflection on everyday life, quiet inspiration, and the beauty found in simple moments. Observing the world slowly, appreciating small experiences, and finding meaning in the ordinary."
+  },
+  {
+    "id": 2,
+    "title": "Pink building view, macro shot",
+    "category": "Buildings",
+    "color": "#4da3ff",
+    "image": "/pinkbuilding.webp",
+    "author": "Daniel Moore",
+    "date": "February 2, 2026",
+    "content": "Cities often move so fast that we forget to notice the details around us. One afternoon while walking through a quiet street, a soft pink building caught my attention. Its colors reflected the warm sunlight and created a calm atmosphere among the busy urban environment. Moments like this remind us that beauty is not always found in famous landmarks or grand architecture. Sometimes it lives in small corners of the city — in colors, textures, and unexpected places that quietly tell their own story.",
+    "extra": "A reflection on urban life and the small architectural details that bring warmth and character to everyday city environments."
+  },
+  {
+    "id": 3,
+    "title": "Mysterious glitchy digital portrait",
+    "category": "Art",
+    "color": "#ff6b6b",
+    "image": "/mysterious.webp",
+    "author": "Sophia Carter",
+    "date": "March 12, 2026",
+    "content": "Art has always been a mirror of human emotion. In the digital age, creativity has taken on entirely new forms that blend technology with imagination. A single image, even one that looks distorted or unusual, can evoke curiosity and invite us to interpret its meaning. Sometimes art does not need to be perfect or clear — its mystery is what makes it powerful. It challenges us to think, feel, and see the world from perspectives we may have never considered before.",
+    "extra": "Exploring how modern digital art expresses emotion, imagination, and curiosity through unexpected visual styles."
+  },
+  {
+    "id": 4,
+    "title": "Wild tiger in forest",
+    "category": "Lifestyle",
+        "color": "#c084fc",
+    "image": "/swings.webp",
+    "author": "Michael Brooks",
+    "date": "April 8, 2026",
+    "content": "Nature reminds us how powerful and balanced the world can be. Watching wildlife in its natural environment is a humbling experience that teaches patience and respect. A tiger moving silently through the forest represents strength, independence, and harmony with its surroundings. In a world where human activity grows every day, moments like this encourage us to appreciate and protect the wild spaces that still remain.",
+    "extra": "A reminder of the beauty and importance of wildlife and the delicate balance between humans and nature."
+  },
+   {
+    "id": 5,
+    "title": "Beautiful mountain nature",
+    "category": "Nature",
+      "color": "#14d9c4",
+    "image": "/greenlakes.webp",
+    "author": "Emily Turner",
+    "date": "May 14, 2026",
+    "content": "Mountains have a unique way of making us pause and reflect. Standing at a high viewpoint and looking across endless landscapes brings a sense of peace that is difficult to describe. The air feels fresher, the noise disappears, and the mind becomes clear. These quiet moments in nature remind us that sometimes the best way to reset our thoughts is simply to step away from busy routines and reconnect with the natural world.",
+    "extra": "A peaceful reflection on how nature and mountain landscapes help people find calm and clarity."
+  },
+  {
+    "id": 6,
+    "title": "The miraculous moment",
+    "category": "Animals",
+     "color": "#22c55e",
+    "image": "/themiraculous.webp",
+    "author": "Oliver Bennett",
+    "date": "June 1, 2026",
+    "content": "Life is full of unexpected moments that feel almost magical. It might be a quiet sunrise, a sudden change in the sky, or a peaceful place discovered during a long journey. These experiences often appear when we least expect them. They remind us that the world is still full of wonder if we take the time to notice it. Even a short moment of stillness can leave a lasting memory that stays with us long after the day ends.",
+    "extra": "A reflection on unexpected moments of wonder in everyday life and the quiet beauty of nature."
+  }
+]
